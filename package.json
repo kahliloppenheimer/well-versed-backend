@@ -1,0 +1,19 @@
+{
+  "name": "well_versed_backend",
+  "version": "0.0.0",
+  "description": "Backend for https://github.com/dsiah/well-versed",
+  "main": "backend.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kahliloppenheimer"
+  },
+  "scripts": {
+    "start": "node backend.js"
+  },
+  "dependencies": {
+    "text-backdrop": "*",
+    "express": "*",
+    "body-parser": "*",
+    "morgan": "*"
+  }
+}
