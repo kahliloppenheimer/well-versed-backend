@@ -7,6 +7,9 @@ var bodyparser = require('body-parser');
 var morgan = require('morgan');
 var app = express();
 
+// Let port be set by environment or default to 8080
+var port = process.env.PORT || 8080;
+
 app.use(bodyparser.urlencoded({extended: false}));
 app.use(morgan('combined'));
 
@@ -23,7 +26,7 @@ app.post('/summarize', function (req, res) {
     });
 });
 
-var server = app.listen(8080, function () {
+var server = app.listen(port, function () {
     var host = server.address().address;
     var port = server.address().port;
 
