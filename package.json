@@ -10,6 +10,11 @@
   "scripts": {
     "start": "node backend.js"
   },
+  "engines": {
+      "node": "0.12.2"
+  },
+  "author": "Kahlil Oppenheimer",
+  "license": "MIT",
   "dependencies": {
     "text-backdrop": "*",
     "express": "*",
