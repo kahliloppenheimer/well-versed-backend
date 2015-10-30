@@ -4,4 +4,4 @@ Runs a simple HTTP server in node.js that acceps posts requests at the /summariz
 # Related pages:
 https://github.com/dsiah/well-versed
 
-https://github.com/kahliloppenheimer/backdrop
+https://github.com/kahliloppenheimer/text-backdrop
